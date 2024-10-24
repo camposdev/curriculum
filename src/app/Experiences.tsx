@@ -119,7 +119,7 @@ const Experiences = () => {
 
       {!isCollapsed ? (
         <div className='absolute bottom-0 left-0 flex items-end justify-center w-full h-[200px] bg-gradient-to-b from-gray-950/0 to-gray-950'>
-          <button className='mb-4 bg-white/10 rounded-full py-[2px] px-3 text-[10px] uppercase font-bold tracking-widest text-slate-400 hover:bg-white/20 transition-all hover:text-slate-200' onClick={() => setIsCollapsed(true)}>See more</button>
+          <button className='mb-4 bg-white/10 rounded-full py-[2px] px-3 text-[10px] uppercase font-bold tracking-widest text-slate-400 hover:bg-white/20 transition-all hover:text-slate-200' onClick={() => setIsCollapsed(true)}>Show more</button>
         </div>
       ) : (
         <div className='text-center'>
@@ -129,7 +129,7 @@ const Experiences = () => {
               setIsCollapsed(false)
               sectionRef.current?.scrollIntoView()
             }}
-          >See less</button>
+          >Show less</button>
         </div>
       )}
     </section>

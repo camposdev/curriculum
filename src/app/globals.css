@@ -14,7 +14,7 @@
   }
   .card-project {
     img:not(.is-small) {
-      @apply opacity-50 transition-all
+      @apply opacity-60 transition-all
     }
     .icon-link {
       @apply lg:opacity-0 lg:scale-125
