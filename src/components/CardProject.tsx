@@ -30,7 +30,7 @@ export const CardProject = ({ href, image, title, tags }: Props) => {
         </header>
       </Link>
 
-      <h5 className="uppercase text-xs tracking-widest my-2">{title}</h5>
+      <h4 className="uppercase text-xs tracking-widest my-2">{title}</h4>
 
       <footer className="text-xs text-slate-400">
         <GrTechnology className="inline text-base mr-1" /> {tags.map((tag) => <span className="project-tag" key={tag}>{tag}</span>)}
