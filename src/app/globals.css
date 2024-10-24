@@ -2,26 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer base {
+  body {
+    @apply text-slate-300 bg-gray-950
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer components {
+  .subtitle {
+    @apply text-xl text-center uppercase tracking-[10px] text-slate-400 mb-10
+  }
+  .card-project {
+    img {
+      @apply opacity-50 transition-all
+    }
+    .icon-link {
+      @apply lg:opacity-0 lg:scale-125
+    }
+    &:hover {
+      img {
+        @apply opacity-100
+      }
+      .icon-link {
+        @apply lg:opacity-100 lg:scale-100
+      }
+    }
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply max-w-[1200px]
+  }
+  .content {
+    p {
+      @apply mb-6
+    }
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-syne);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.font-syne {
+  font-family: var(--font-syne);
+}
+.font-dela {
+  font-family: var(--font-dela-gothic-one);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-dela-gothic-one);
+}
+
+.project-tag::after {
+  content: " • ";
+}
+.project-tag:last-of-type::after {
+  content: "";
 }
