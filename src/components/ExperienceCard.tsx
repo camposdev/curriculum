@@ -11,7 +11,7 @@ type TProps = {
 const ExperienceCard = ({ role, company, period, description, technologies }: TProps) => {
   return (
     <article className="max-w-[600px] m-auto p-[1px] rounded-xl bg-gradient-to-br from-slate-400 via-slate-900 to-slate-600 shadow-md">
-      <div className="p-4 bg-gradient-to-b from-slate-900 to-slate-950 rounded-xl">
+      <div className="p-4 bg-gradient-to-b from-slate-800 to-slate-900 rounded-xl">
         <header className="text-center">
           <h4 className="font-syne font-bold text-base">
             {role} <span className="font-normal">at</span> {company}

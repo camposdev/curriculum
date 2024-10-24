@@ -118,7 +118,7 @@ const Experiences = () => {
       <TimelineSeparator year="2010" end />
 
       {!isCollapsed ? (
-        <div className='absolute bottom-0 left-0 flex items-end justify-center w-full h-[200px] bg-gradient-to-b from-gray-950/0 to-gray-950'>
+        <div className='absolute bottom-0 left-0 flex items-end justify-center w-full h-[200px] bg-gradient-to-b from-slate-900/0 to-slate-900'>
           <button className='mb-4 bg-white/10 rounded-full py-[2px] px-3 text-[10px] uppercase font-bold tracking-widest text-slate-400 hover:bg-white/20 transition-all hover:text-slate-200' onClick={() => setIsCollapsed(true)}>Show more</button>
         </div>
       ) : (

@@ -16,8 +16,8 @@ const TimelineSeparator = ({ start = false, end = false, year }: TProps) => {
       )}
 
       {!!year && (
-        <div className="w-16 h-16 p-[2px] rounded-full bg-gradient-to-br from-slate-400 via-slate-900 to-slate-600">
-          <div className="bg-gradient-to-b from-slate-900 to-slate-950 w-full h-full flex flex-col items-center justify-center rounded-full font-dela text-sm text-slate-300">
+        <div className="w-16 h-16 p-[2px] rounded-full bg-gradient-to-br from-slate-400 via-slate-800 to-slate-600">
+          <div className="bg-gradient-to-b from-slate-800 to-slate-900 w-full h-full flex flex-col items-center justify-center rounded-full font-dela text-sm text-slate-300">
             {year}
           </div>
         </div>

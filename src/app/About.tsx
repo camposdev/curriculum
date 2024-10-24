@@ -5,7 +5,7 @@ import { SiNextdotjs, SiTypescript, SiVitest } from 'react-icons/si'
 
 const About = () => {
   return (
-    <section className="mb-16">
+    <section className="mb-16 mt-[200px]">
       <h3 className="subtitle">About me</h3>
 
       <div className="content max-w-[600px] m-auto text-center">
@@ -13,7 +13,7 @@ const About = () => {
         <p>Throughout my career, I’ve developed projects that bridge design and programming, ensuring aesthetically pleasing and high-performance solutions. I specialize in React and its ecosystem, where I apply best practices to deliver dynamic and responsive interfaces, always prioritizing clean, efficient, and maintainable code.</p>
       </div>
 
-      <div className="mt-10 flex flex-wrap justify-center gap-6 text-5xl text-slate-800">
+      <div className="mt-10 flex flex-wrap justify-center gap-6 text-5xl text-slate-700">
         <DiHtml5 />
         <DiCss3 />
         <SiTypescript />
