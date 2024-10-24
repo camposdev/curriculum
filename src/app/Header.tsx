@@ -29,7 +29,9 @@ const Header = () => {
       </header>
 
       <div className="opacity-100 absolute w-full h-[500px] top-[100px] xl:top-[120px] left-1/2 -z-10 overflow-hidden max-w-[1000px] -translate-x-1/2">
-        <video src="/hello.mp4" autoPlay={true} muted={true} loop={true} controls={false} playsInline className="absolute w-full h-full inset-0 object-cover border border-slate-900 grayscale opacity-100"></video>
+        <video autoPlay={true} muted={true} loop={true} controls={false} playsInline={true} preload="auto" className="absolute w-full h-full inset-0 object-cover border border-slate-900 grayscale opacity-100">
+          <source src="/hello.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-slate-900 via-slate-900/0 to-slate-900 scale-105"></div>
         <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-slate-900 via-slate-900/0 to-slate-900 scale-105"></div>
         <div className="absolute inset-0 w-full h-full bg-slate-900/70"></div>
