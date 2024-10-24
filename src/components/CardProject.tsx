@@ -25,8 +25,9 @@ export const CardProject = ({ href, image, title, tags, small, year }: Props) =>
               alt={title}
               className={`rounded-lg border border-slate-800 w-full ${!!small && 'is-small'}`}
             />
-            <div className="icon-link absolute top-1/2 left-1/2 w-[80px] h-[80px] rounded-full bg-slate-900/80 flex justify-center items-center text-slate-200 text-3xl transition-all cursor-pointer -translate-x-1/2 -translate-y-1/2">
-              <LuExternalLink />
+            <div className="icon-link absolute  w-[80px] h-[80px] flex justify-center items-center text-slate-200 text-3xl transition-all cursor-pointer right-0 top-0">
+              <div className="bg-slate-900/60 blur-md absolute w-full h-full inset-0 rounded-full -z-10"></div>
+              <LuExternalLink className="text-xl" />
             </div>
           </div>
         </header>

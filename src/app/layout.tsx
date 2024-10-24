@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Dela_Gothic_One, Syne } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/react"
 import './globals.css'
 
 const dela = Dela_Gothic_One({
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${dela.variable} ${syne.variable} antialiased`}>
       <body className={`overflow-x-hidden`}>{children}</body>
+      <Analytics />
     </html>
   )
 }
