@@ -16,8 +16,8 @@ const syne = Syne({
 })
 
 export const metadata: Metadata = {
-  title: 'Felipe Campos | Front-End Engineer',
-  description: 'Front-End Engineer | React | Typescript',
+  title: 'Felipe Campos | Frontend Engineer',
+  description: 'Frontend Developer | React | Typescript',
 }
 
 export default function RootLayout({

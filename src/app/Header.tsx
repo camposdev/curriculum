@@ -11,7 +11,7 @@ const Header = () => {
             <h1 className="text-5xl bg-gradient-to-r from-slate-300 via-slate-100 to-slate-300 inline-block py-3 px-1 text-transparent bg-clip-text tracking-tighter">
               Felipe Campos
             </h1>
-            <h2 className="font-syne text-2xl text-slate-400 mt-2">Front-End Engineer</h2>
+            <h2 className="font-syne text-2xl text-slate-400 mt-2">Frontend Engineer</h2>
           </div>
 
           <SocialLinks />
