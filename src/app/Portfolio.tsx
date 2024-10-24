@@ -11,6 +11,7 @@ const Portfolio = () => {
           href="https://mobvarejo.simmobile.com.br/"
           image="/mobvarejo.jpg"
           title="Hotsite (e-commerce)"
+          year="2024"
           tags={['UI/UX', 'Next.js', 'Tailwind', 'WordPress', 'E-commerce']}
         />
 
@@ -18,6 +19,7 @@ const Portfolio = () => {
           href="https://www.mobfood.com.br/barbarohamburgueria"
           image="/mobfood.jpg"
           title="Delivery web app"
+          year="2024"
           tags={['UI/UX', 'Next.js', 'Tailwind', 'REST API']}
         />
 
@@ -25,13 +27,23 @@ const Portfolio = () => {
           href="https://peruffo.vercel.app/"
           image="/peruffo.jpg"
           title="Landing page"
+          year="2023"
           tags={['UI/UX', 'Next.js', 'Tailwind']}
+        />
+
+        <CardProject
+          href="https://pokedexdev.vercel.app/"
+          image="/pokedex.jpg"
+          title="Pokédex"
+          year="2022"
+          tags={['UI/UX', 'React', 'Styled Components', 'Redux']}
         />
 
         <CardProject
           href="https://santosberco.com.br/"
           image="/santosberco.jpg"
           title="Web site"
+          year="2021"
           tags={['UI/UX', 'Next.js', 'Styled Components', 'Wordpress', 'REST API']}
         />
 
@@ -39,14 +51,35 @@ const Portfolio = () => {
           href="https://piccped.herokuapp.com/"
           image="/piccped.jpg"
           title="PWA"
+          year="2019"
           tags={['UI/UX', 'Preact', 'Progressive Web App']}
         />
 
         <CardProject
-          href="https://pokedexdev.vercel.app/"
-          image="/pokedex.jpg"
-          title="Pokédex"
-          tags={['UI/UX', 'React', 'Styled Components', 'Redux']}
+          href="https://violin-ui.netlify.app/"
+          image="/violin.png"
+          title="Design System"
+          year="2020"
+          tags={['UI/UX', 'React', 'Styled Components']}
+          small
+        />
+
+        <CardProject
+          href="https://nectar-ui.netlify.app/#/"
+          image="/nectar.png"
+          title="Design System"
+          year="2019"
+          tags={['UI/UX', 'React', 'Styled Components']}
+          small
+        />
+
+        <CardProject
+          href="https://nix.aurum.com.br/"
+          image="/nix.png"
+          title="CSS Library"
+          year="2018"
+          tags={['UI/UX', 'SASS']}
+          small
         />
       </div>
     </section>

@@ -13,7 +13,7 @@
     @apply text-xl text-center uppercase tracking-[10px] text-slate-400 mb-10
   }
   .card-project {
-    img {
+    img:not(.is-small) {
       @apply opacity-50 transition-all
     }
     .icon-link {
