@@ -30,7 +30,7 @@ const ExperienceCard = ({ role, company, period, description, technologies }: TP
 
           <ul className="flex flex-wrap gap-1 justify-center">
             {technologies.map((item, index) => 
-              <li className="text-xs py-[2px] px-2 bg-slate-900 rounded-full" key={index}>{item}</li>
+              <li className="text-xs py-[2px] px-2 bg-slate-900 text-slate-400 rounded-full" key={index}>{item}</li>
             )}
           </ul>
         </footer>
